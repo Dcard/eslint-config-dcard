@@ -6,6 +6,9 @@ ESLint config for Dcard projects
 
 ``` bash
 $ npm install eslint-config-dcard --save-dev
+
+# You also have to install eslint-plugin-mocha
+$ npm install eslint-plugin-mocha --save-dev
 ```
 
 ## Usage
