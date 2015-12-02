@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dcard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for Dcard projects",
   "main": "eslint.json",
   "repository": "Dcard/eslint-config-dcard",
@@ -10,7 +10,7 @@
     "dcard",
     "eslint-config"
   ],
-  "devDependencies": {
+  "dependencies": {
     "eslint-plugin-mocha": "^1.1.0"
   }
 }
