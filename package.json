@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-dcard",
+  "version": "1.0.0",
+  "description": "ESLint config for Dcard projects",
+  "main": "eslint.json",
+  "repository": "Dcard/eslint-config-dcard",
+  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "license": "MIT",
+  "keywords": [
+    "dcard",
+    "eslint-config"
+  ],
+  "devDependencies": {
+    "eslint-plugin-mocha": "^1.1.0"
+  }
+}
