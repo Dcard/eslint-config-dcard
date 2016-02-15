@@ -2,7 +2,7 @@
   "name": "eslint-config-dcard",
   "version": "1.0.2",
   "description": "ESLint config for Dcard projects",
-  "main": "eslint.json",
+  "main": "eslint.js",
   "repository": "Dcard/eslint-config-dcard",
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": "MIT",
