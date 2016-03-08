@@ -37,11 +37,7 @@ module.exports = {
       vars: 'all',
       args: 'none'
     }],
-    'strict': [2, 'global'],
-    'generator-star-spacing': [2, {
-      before: false,
-      after: true
-    }]
+    'strict': [2, 'global']
   },
   env: {
     node: true,

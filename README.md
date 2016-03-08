@@ -7,8 +7,11 @@ ESLint config for Dcard projects
 ``` bash
 $ npm install eslint-config-dcard --save-dev
 
-# You also have to install eslint-plugin-mocha
+# Required by dcard/test config
 $ npm install eslint-plugin-mocha --save-dev
+
+# Required by dcard/react config
+$ npm install eslint-plugin-react --save-dev
 ```
 
 ## Usage
