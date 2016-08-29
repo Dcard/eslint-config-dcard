@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dcard",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint config for Dcard projects",
   "main": "eslint.js",
   "repository": "Dcard/eslint-config-dcard",
