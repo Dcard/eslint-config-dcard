@@ -37,7 +37,8 @@ module.exports = {
       vars: 'all',
       args: 'none'
     }],
-    'strict': [2, 'global']
+    'strict': [2, 'global'],
+    'require-yield': 0
   },
   env: {
     node: true,
