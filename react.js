@@ -1,11 +1,9 @@
 module.exports = {
   extends: './eslint.js',
   rules: {
-    'react/no-deprecated': [1, {
-      react: '0.14.0'
-    }],
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
-    'react/no-did-update-set-state': [2, 'allow-in-func'],
+    'react/no-deprecated': 1,
+    'react/no-did-mount-set-state': 2,
+    'react/no-did-update-set-state': 2,
     'react/no-direct-mutation-state': 2,
     'react/no-is-mounted': 2,
     'react/no-multi-comp': [2, {
@@ -13,13 +11,9 @@ module.exports = {
     }],
     'react/no-unknown-property': 2,
     'react/prefer-es6-class': [2, 'always'],
-    // FIXME: This shit breaks the test
-    // 'react/prop-types': [2, {
-    //   ignore: ['children']
-    // }],
     'react/react-in-jsx-scope': 2,
     'react/self-closing-comp': 2,
-    'react/wrap-multilines': 2,
+    'react/jsx-wrap-multilines': 2,
     'react/jsx-closing-bracket-location': [2, 'after-props'],
     'react/jsx-curly-spacing': [2, 'never', {
       allowMultiline: true
@@ -37,7 +31,12 @@ module.exports = {
     'react/jsx-pascal-case': 2,
     'react/jsx-space-before-closing': [2, 'never'],
     'react/jsx-uses-react': 2,
-    'react/jsx-uses-vars': 2
+    'react/jsx-uses-vars': 2,
+    'react/no-string-refs': 2,
+    'react/no-unknown-property': 2,
+    'react/require-render-return': 2,
+    'react/style-prop-object': 2,
+    'react/jsx-filename-extension': 2
   },
   plugins: ['react'],
   env: {
