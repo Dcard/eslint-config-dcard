@@ -11,7 +11,7 @@
     "eslint-config"
   ],
   "peerDependencies": {
-    "eslint": "^3.4.0",
+    "eslint": ">= 3",
     "eslint-plugin-mocha": "^4.4.0",
     "eslint-plugin-react": "^7.1.0"
   }
