@@ -12,6 +12,7 @@
   ],
   "peerDependencies": {
     "eslint": ">= 3",
+    "eslint-plugin-jest": "*",
     "eslint-plugin-mocha": "^4.4.0",
     "eslint-plugin-react": "^7.1.0"
   }
