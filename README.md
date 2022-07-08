@@ -5,24 +5,41 @@ ESLint config for Dcard projects
 ## Installation
 
 ``` bash
-$ npm install eslint-config-dcard --save-dev
-
-# Required by dcard/test config
-$ npm install eslint-plugin-mocha --save-dev
-
-# Required by dcard/react config
-$ npm install eslint-plugin-react --save-dev
+# Install peer dependencies
+yarn add @next/eslint-plugin-next @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unicorn
+# Install eslint-config-dcard
+yarn add eslint-config-dcard -D
 ```
 
 ## Usage
 
-In `.eslintrc`
+In `.eslintrc.cjs`
 
 ``` js
-{
-  "extends": "dcard"
+module.exports = {
+  extends: 'dcard/base',
+
+  // Extends config for specific files
+  overrides: [
+    {
+      files: ['*.tsx'],
+      extends: ['@dcard/eslint-config/react'],
+    },
+    {
+      files: ['*.test.tsx'],
+      extends: ['@dcard/eslint-config/jest'],
+    },
+    // ...
+  ]
 }
 ```
+
+## Supported Configurations
+
+- `dcard/base`
+- `dcard/react`
+- `dcard/jest`
+- `dcard/next`
 
 ## License
 
