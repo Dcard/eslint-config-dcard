@@ -23,7 +23,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.tsx'],
-      extends: ['@dcard/eslint-config/react'],
+      extends: ['dcard/react'],
     },
     {
       files: ['*.test.tsx'],
