@@ -27,7 +27,7 @@ module.exports = {
     },
     {
       files: ['*.test.tsx'],
-      extends: ['@dcard/eslint-config/jest'],
+      extends: ['dcard/jest'],
     },
     // ...
   ]
