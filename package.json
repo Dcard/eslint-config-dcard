@@ -10,10 +10,10 @@
     "eslint-config"
   ],
   "exports": {
-    "./base": "./base",
-    "./react": "./react",
-    "./jest": "./jest",
-    "./next": "./next"
+    "./base": "./base.js",
+    "./react": "./react.js",
+    "./jest": "./jest.js",
+    "./next": "./next.js"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.11"
