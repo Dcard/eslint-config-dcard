@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dcard",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "ESLint config for Dcard projects",
   "repository": "Dcard/eslint-config-dcard",
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
