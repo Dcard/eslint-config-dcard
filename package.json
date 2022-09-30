@@ -9,6 +9,7 @@
     "dcard",
     "eslint-config"
   ],
+  "packageManager": "yarn@1.22.19",
   "exports": {
     "./base": "./base.js",
     "./react": "./react.js",
