@@ -20,18 +20,18 @@
     "confusing-browser-globals": "^1.0.11"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^12.2.3",
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
-    "eslint": "^8.20.0",
+    "@next/eslint-plugin-next": "^12.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.6.0",
+    "eslint-plugin-jest": "^27.0.4",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^43.0.2",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.4"
   },
   "peerDependencies": {
     "@next/eslint-plugin-next": ">=12",
@@ -39,12 +39,12 @@
     "@typescript-eslint/parser": ">=5",
     "eslint": ">=8",
     "eslint-plugin-import": ">=2",
-    "eslint-plugin-jest": ">=26",
+    "eslint-plugin-jest": ">=27",
     "eslint-plugin-jsx-a11y": ">=6",
     "eslint-plugin-node": ">=11",
     "eslint-plugin-react": ">=7",
     "eslint-plugin-react-hooks": ">=4",
-    "eslint-plugin-unicorn": ">=42",
+    "eslint-plugin-unicorn": ">=43",
     "typescript": ">=4"
   }
 }
